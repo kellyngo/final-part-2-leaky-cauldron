@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'gloucester';
-  src: url('/font/GloucesterMT-ExtraCondensed.eot.eot'); /* IE9 Compat Modes */
-  src: url('/font/GloucesterMT-ExtraCondensed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/font/GloucesterMT-ExtraCondensed.woff') format('woff'), /* Pretty Modern Browsers */
-       url('GloucesterMT-ExtraCondensed.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('GloucesterMT-ExtraCondensed.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('../fonts/GloucesterMT-ExtraCondensed.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GloucesterMT-ExtraCondensed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GloucesterMT-ExtraCondensed.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GloucesterMT-ExtraCondensed.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GloucesterMT-ExtraCondensed.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
@@ -12,7 +12,8 @@
 body {
     margin: auto;
     font-size: 14px;
-    font-family: 'gloucester'
+    font-family: 'Cabin';
+    letter-spacing: .02em;
 }
 
 #container {
@@ -40,11 +41,64 @@ header img {
 
 #content {
     background: url(../img/cauldron-pattern.jpg) repeat;
-    padding: .5em;
+    padding: 1.5em;
 }
 
 #typography{
-    width: 100%;
     margin: auto 0;
     background: #FFFFFF;
+    padding: .5em 1.2em .5em 1.2em;
+}
+
+h1 {
+    font-family: 'gloucester';
+    color: #2c292e;
+    letter-spacing: .02em;
+    font-weight: normal;
+    font-size: 2.5em;
+    margin: .3em 0em 0em 0em;
+}
+
+h2 {
+    font-family: 'Cabin';
+    font-style: italic;
+    color: #aba000;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: .5em 0em 0em 0em;
+    letter-spacing: 0em;
+}
+
+p {
+    font-family: 'Cabin';
+    color: #2c292e;
+    letter-spacing: .02em;
+
+}
+
+p.label {
+    font-family: 'Cabin';
+    color: #959595;
+    font-size: .8em;
+    letter-spacing: 0em;
+    margin-top: .2em;
+}
+
+a.unvisited {
+    color: #1a4a2f;
+    transition: color 0.3s ease;
+}
+
+a.unvisited:hover {
+    color: #aba000;
+}
+
+a.visited {
+    color: #aba000;
+    text-decoration: none;
+}
+
+a.active {
+    color: #1a4a2f;
+    font-style: italic;
 }
