@@ -213,3 +213,33 @@ footer img {
     width: 100%;
     max-width: 913px;
 }
+
+/* ---------------------- Start Medium Styles  ------------------------- */
+
+@media (min-width: 630px) {
+
+    header img {
+        width: 80%;
+    }
+
+    #purple {
+        width: 8em;
+        height: 8em;
+        display: inline-block;
+    }
+
+    #yellow {
+        width: 8em;
+        height: 8em;
+    }
+
+    #green {
+        width: 8em;
+        height: 8em;
+    }
+
+
+
+
+
+    }
