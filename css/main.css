@@ -149,3 +149,59 @@ a.active {
     width: 100%;
     padding-top: .5em;
 }
+
+#buttons {
+    margin: auto;
+    margin-top: 1.5em;
+    background: #FFFFFF;
+    padding: 1em;
+}
+
+.button-container {
+    margin: auto;
+    width: 17.3em;
+    height: 3.3em;
+}
+
+.purple-back {
+    width: 17em;
+    height: 3em;
+    background: #2c292e;
+    float: left;
+    margin-top: .3em;
+}
+
+.yellow-front {
+    width: 17em;
+    height: 3em;
+    background: #aba000;
+    position: relative;
+        left: .3em;
+        bottom: 3.3em;
+    overflow: hidden;
+    text-align: center;
+    line-height: 3em;
+    color: white;
+}
+
+.yellow-back {
+    width: 17em;
+    height: 3em;
+    background: #aba000;
+    float: left;
+    margin-top: .3em;
+}
+
+.purple-front {
+    width: 17em;
+    height: 3em;
+    background: #2c292e;
+    position: relative;
+        left: .3em;
+        bottom: 3.3em;
+    overflow: hidden;
+    text-align: center;
+    line-height: 3em;
+    color: white;
+}
+
