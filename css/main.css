@@ -290,7 +290,7 @@ footer img {
 
 /* ---------------------- Start Medium Styles  ------------------------- */
 
-@media (min-width: 815px) {
+@media (min-width: 840px) {
 
     header {
         text-align: left;
@@ -300,6 +300,36 @@ footer img {
         width: 60%;
     }
 
+    #typography {
+        float: left;
+        width: 40%;
+    }
+
+    #colors {
+        clear: both;
+        float: left;
+        width: 41%;
+    }
+
+      #purple {
+        width: 6em;
+        height: 6em;
+    }
+
+    #yellow {
+        width: 6em;
+        height: 6em;
+    }
+
+    #green {
+        width: 6em;
+        height: 6em;
+    }
+
+    #images {
+        margin-left: 47%;
+        width: 50%;
+    }
 
 
 }
