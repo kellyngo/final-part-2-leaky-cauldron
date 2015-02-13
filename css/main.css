@@ -238,8 +238,39 @@ footer img {
         height: 8em;
     }
 
+    #images {
+        overflow: auto;
+    }
 
+    #images img.lights {
+        width: 45%;
+        float: left;
+        margin: 0 2% 1% 1.5%;
+    }
 
+    #images img.cat {
+        width: 45%;
+        float: left;
+        clear: left;
+        margin-left: 1.5%;
+    }
 
+    #images img.stairs {
+        width: 50%;
+    }
+
+    #caption {
+        float: right;
+        width: 51.5%;
 
     }
+
+    #buttons {
+        clear: both;
+    }
+
+    #button-wrapper{
+        display: inline;
+    }
+
+}
