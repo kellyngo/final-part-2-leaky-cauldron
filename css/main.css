@@ -182,20 +182,17 @@ a.active {
     text-align: center;
     line-height: 3em;
     color: white;
+    transition: background 0.3s ease;
 }
 
-.yellow-back {
-    width: 17em;
-    height: 3em;
-    background: #aba000;
-    float: left;
-    margin-top: .3em;
+.yellow-front:hover {
+    background: #1a4a2f;
 }
 
-.purple-front {
+.green-front {
     width: 17em;
     height: 3em;
-    background: #2c292e;
+    background: #1a4a2f;
     position: relative;
         left: .3em;
         bottom: 3.3em;
