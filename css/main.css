@@ -1,6 +1,18 @@
+@font-face {
+  font-family: 'gloucester';
+  src: url('/font/GloucesterMT-ExtraCondensed.eot.eot'); /* IE9 Compat Modes */
+  src: url('/font/GloucesterMT-ExtraCondensed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/font/GloucesterMT-ExtraCondensed.woff') format('woff'), /* Pretty Modern Browsers */
+       url('GloucesterMT-ExtraCondensed.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GloucesterMT-ExtraCondensed.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
 body {
     margin: auto;
     font-size: 14px;
+    font-family: 'gloucester'
 }
 
 #container {
@@ -23,5 +35,16 @@ header {
 header img {
     width: 100%;
     max-width: 913px;
-    padding: 1em, 0em, 0em, 0em;
+    padding: 1em 0em 1em 0em;
+}
+
+#content {
+    background: url(../img/cauldron-pattern.jpg) repeat;
+    padding: .5em;
+}
+
+#typography{
+    width: 100%;
+    margin: auto 0;
+    background: #FFFFFF;
 }
