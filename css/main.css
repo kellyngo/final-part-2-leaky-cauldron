@@ -102,3 +102,38 @@ a.active {
     color: #1a4a2f;
     font-style: italic;
 }
+
+#colors {
+    margin: auto;
+    margin-top: 1.5em;
+    background: #FFFFFF;
+    padding: 1em;
+}
+
+#color-container {
+    margin: auto;
+    text-align: center;
+}
+
+#purple {
+    background: #2c292e;
+    width: 6em;
+    height: 6em;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#yellow {
+    background: #aba000;
+    width: 6em;
+    height: 6em;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#green {
+    background: #1a4a2f;
+    width: 6em;
+    height: 6em;
+    display: inline-block;
+}
