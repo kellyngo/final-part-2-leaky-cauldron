@@ -137,3 +137,15 @@ a.active {
     height: 6em;
     display: inline-block;
 }
+
+#images {
+    margin: auto;
+    margin-top: 0em;
+    background: #FFFFFF;
+    padding: .5em 1em .5em 1em;
+}
+
+#images img{
+    width: 100%;
+    padding-top: .5em;
+}
