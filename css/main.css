@@ -287,3 +287,20 @@ footer img {
     }
 
 }
+
+/* ---------------------- Start Medium Styles  ------------------------- */
+
+@media (min-width: 815px) {
+
+    header {
+        text-align: left;
+    }
+
+    header img {
+        width: 60%;
+    }
+
+
+
+}
+
