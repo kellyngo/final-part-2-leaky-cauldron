@@ -157,10 +157,6 @@ a.active {
     padding: 1em;
 }
 
-#button-wrapper{
-        margin-bottom: 1em;
-    }
-
 #button-yellow {
     margin: auto;
     width: 17.3em;
@@ -257,16 +253,21 @@ footer img {
     }
 
     #buttons {
-        clear: both;
-        overflow: auto;
+        overflow: hidden;
     }
 
-    #button-wrapper{
+    #button-center {
+        margin: auto;
+        width: 97%;
+    }
+
+    #button-yellow {
         float: left;
-        width: 48%;
-        margin-left: 1%;
-        margin-right: 1%;
-        margin-bottom: 0;
+        margin-bottom: 1em;
+    }
+
+    #button-green {
+        float: right;
     }
 
     footer img {
