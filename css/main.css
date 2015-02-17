@@ -303,12 +303,13 @@ footer img {
     #typography {
         float: left;
         width: 40%;
+        padding-bottom: 3.1%;
     }
 
     #colors {
         clear: both;
         float: left;
-        width: 41%;
+        width: 40.7%;
     }
 
       #purple {
@@ -329,7 +330,32 @@ footer img {
     #images {
         margin-left: 47%;
         width: 50%;
+        background: none;
     }
+
+    #images img {
+        border: solid white .3em;
+        padding: 0;
+    }
+
+    #buttons{
+        clear: none;
+        width: 50%;
+        margin-left: 47%;
+    }
+
+    #button-wrapper{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 2%;
+        float: none;
+    }
+
+    footer img {
+        width: 50%;
+        margin: 47%;
+    }
+
 
 
 }
