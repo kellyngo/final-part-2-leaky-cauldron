@@ -275,3 +275,17 @@ footer img {
     }
 
 }
+
+/* ---------------------- Start Desktop Styles  ------------------------- */
+
+@media (min-width: 880px) {
+
+    header {
+        text-align: left;
+    }
+
+    header img {
+        width: 60%;
+    }
+
+}
