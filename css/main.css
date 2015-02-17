@@ -304,6 +304,7 @@ footer img {
         display:inline-block;
         margin-top: 0em;
         margin-left: 1.5em;
+        float: right;
     }
 
     #colors-container {
@@ -330,12 +331,23 @@ footer img {
         margin-left: 1.5em;
         margin-top: 1.5em;
         display: inline-block;
+        float: right;
     }
 
     #buttons {
         display: inline-block;
         float: left;
         width: 40.5%;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    footer img {
+        margin-top: 2em;
+        width: 40%;
+        margin-bottom: 2em;
     }
 
 }
