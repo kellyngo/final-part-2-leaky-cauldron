@@ -288,4 +288,36 @@ footer img {
         width: 60%;
     }
 
+    #typography {
+        width: 40%;
+        float: left;
+    }
+
+    #colors {
+        width: 50%;
+        vertical-align: top;
+        display:inline-block;
+        margin-top: 0em;
+        margin-left: 1.5em;
+    }
+
+    #colors-container {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #purple {
+        width: 30%;
+        margin: .3em;
+    }
+    #green {
+        width: 30%;
+        margin: .3em;
+    }
+    #yellow {
+        width: 30%;
+        margin: .3em;
+    }
+
 }
