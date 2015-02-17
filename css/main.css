@@ -14,6 +14,7 @@ body {
     font-size: 14px;
     font-family: 'Cabin';
     letter-spacing: .02em;
+    background: url(../img/cauldron-pattern.jpg) repeat;
 }
 
 #container {
@@ -25,6 +26,7 @@ header {
     width: 100%;
     margin: auto 0;
     text-align: center;
+    background: #FFFFFF;
 }
 
 .gold-bar {
@@ -40,8 +42,9 @@ header img {
 }
 
 #content {
-    background: url(../img/cauldron-pattern.jpg) repeat;
     padding: 1.5em;
+    max-width: 1080px;
+    margin: auto;
 }
 
 #typography{
@@ -289,7 +292,7 @@ footer img {
     }
 
     header img {
-        width: 60%;
+        width: 50%;
     }
 
     #typography {
