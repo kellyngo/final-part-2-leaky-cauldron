@@ -280,6 +280,10 @@ footer img {
 
 @media (min-width: 880px) {
 
+    #content {
+        text-align: center;
+    }
+
     header {
         text-align: left;
     }
@@ -291,10 +295,11 @@ footer img {
     #typography {
         width: 40%;
         float: left;
+        text-align: left;
     }
 
     #colors {
-        width: 50%;
+        width: 49%;
         vertical-align: top;
         display:inline-block;
         margin-top: 0em;
@@ -318,6 +323,13 @@ footer img {
     #yellow {
         width: 30%;
         margin: .3em;
+    }
+
+    #images {
+        width: 49%;
+        margin-left: 1.5em;
+        margin-top: 1.5em;
+        display: inline-block;
     }
 
 }
