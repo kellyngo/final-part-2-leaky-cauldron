@@ -332,4 +332,10 @@ footer img {
         display: inline-block;
     }
 
+    #buttons {
+        display: inline-block;
+        float: left;
+        width: 40.5%;
+    }
+
 }
