@@ -27,12 +27,7 @@ header {
     margin: auto 0;
     text-align: center;
     background: #FFFFFF;
-}
-
-.gold-bar {
-    background-color: #aba000;
-    width: 100%;
-    height: 1em;
+    border-top: 14px solid #aba000;
 }
 
 header img {
